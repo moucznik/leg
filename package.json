@@ -1,0 +1,27 @@
+{
+  "name": "legitto",
+  "version": "1.0.0",
+  "description": "short website",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "normalize.css": "^6.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moucznik/leg.git"
+  },
+  "keywords": [
+    "legitto"
+  ],
+  "author": "Jiri Mouka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moucznik/leg/issues"
+  },
+  "homepage": "https://github.com/moucznik/leg#readme"
+}
