@@ -15,10 +15,17 @@
     color: $mainOrange;
   }
 
-  &--small {
-    font-size: 1.2rem;
+  &--medium {
+    font-size: 1.8rem;
     @mixin atSmall {
-      font-size: 1.875rem;
+      font-size: 1.9rem;
+    }
+  }
+
+  &--small {
+    font-size: 0.7rem;
+    @mixin atSmall {
+      font-size: 1.5rem;
     }
   }
 
@@ -32,8 +39,8 @@
     font-weight: 100;
   }
 
-  strong {
-    font-weight: 400;
+  &--strong {
+    font-weight: 700;
   }
 
   &--b-margin-small {
@@ -44,7 +51,11 @@
     margin-bottom: 1.6em;
   }
 
-  &--no-t-margin {
-    margin-top: 0;
+    &--no-b-margin {
+    margin-bottom: 0em;
+  }
+
+  &--small-t-margin {
+    margin-top: 0.35em;
   }
 }

@@ -37,7 +37,7 @@
   @mixin atMedium {
 
     &__b-margin-until-medium {
-      margin-bottom: 0;
+      margin-bottom: 1em;
     }
 
     &__medium-4 {
